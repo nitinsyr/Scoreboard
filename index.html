@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="scoreboardAll">
+      <div id="scoreboard">
+        <div class="team">
+          <h1>HOME</h1>
+          <div>
+            <p id="home-score">0</p>
+          </div>
+          <div class="btn-row">
+            <button data-team="home" data-points="1" class="btn">+1</button>
+            <button data-team="home" data-points="2" class="btn">+2</button>
+            <button data-team="home" data-points="3" class="btn">+3</button>
+          </div>
+        </div>
+        <div class="team">
+          <h1>GUEST</h1>
+          <div>
+            <p id="guest-score">0</p>
+          </div>
+          <div class="btn-row">
+            <button data-team="guest" data-points="1" class="btn">+1</button>
+            <button data-team="guest" data-points="2" class="btn">+2</button>
+            <button data-team="guest" data-points="3" class="btn">+3</button>
+          </div>
+        </div>
+      </div>
+      <button class="clearBtn" id="clearScores">Clear</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
